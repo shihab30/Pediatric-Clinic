@@ -363,7 +363,7 @@ body{
 	color: #ffffff;
 }
 .our{
-	color: #C31449;
+	color: #ffffff;
 	border-bottom: 2px solid #ffffff;
 }
 .quis{
@@ -412,21 +412,6 @@ body{
 }
 /*Copyright css End
 ----------------------------------------------------------------*/
-
-
-#backToTop {
-    width:40px;
-    height:40px;
-    opacity:0.8;
-    position:fixed;
-    bottom:5px;
-    right:0;
-    display:none;
-    text-indent:-10000px;
-    outline:none !important;
-    background-image: url('../Dcare 03/Red_Arrow_Up.png');
-    background-repeat: no-repeat;
-}
 
 /*-----------------
 Full Responsive Strat
