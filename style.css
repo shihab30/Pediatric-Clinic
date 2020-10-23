@@ -1,0 +1,514 @@
+/* ----------------------------------------------------------------
+	De CSS
+-----------------------------------------------------------------*/
+
+
+body{
+	font-family: Helvetica;
+	overflow-x: hidden;
+}
+
+/*Manu css start
+----------------------------------------------------------------*/
+.navbar-light .navbar-nav .nav-link:hover {
+	color: rgba(0,0,0,.5);
+	border-bottom: 1px solid #C31449;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #C31449;
+	border-bottom: 1px solid #C31449;
+}
+.navbar-light .navbar-toggler {
+	color: rgba(0,0,0,.5);
+	border-color: none;
+}
+.navbar-toggler {
+	background-color: #D36571;
+}
+.logo{
+	width: 170px;
+	height: 50px;
+}
+.header{
+	color: #000;
+	background-color: #e9f5ed;
+}
+.header:hover{
+	color: #D36571;
+	/*border-bottom: .5px solid #C31449;*/
+	background-color: #fff;
+}
+/*Manu css end
+----------------------------------------------------------------*/
+
+
+/*Slide css start
+----------------------------------------------------------------*/
+.carousel-indicators li {
+	background-color: #C31449;
+	background-clip: border-box;
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+.carousel-caption {
+	padding-bottom: 150px;
+	margin-left: 300px;
+}
+.bg-1{
+	background-image: url('Dcare 03/Background 01 (1).jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 300px;
+	padding-bottom: 150px;
+}
+.bg-2{
+	background-image: url('Dcare 03/Background 01 (2).jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 300px;
+	padding-bottom: 150px;
+}
+.bg-3{
+	background-image: url('Dcare 03/Background 01 (3).jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 300px;
+	padding-bottom: 150px;
+}
+.bg-4{
+	background-image: url('Dcare 03/Background 01 (4).jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 300px;
+	padding-bottom: 150px;
+}
+.my-btn{
+	background-color: #C31449;
+	font-size: 18px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-radius: 20px;
+	margin-top: 20px;
+}
+
+.he{
+	color: #C31449;
+}
+.cr{
+	color: #C31449;
+}
+.creat{
+	color: #000000;
+}
+/*Slide css end
+----------------------------------------------------------------*/
+
+/*Service css start
+----------------------------------------------------------------*/
+.mas{
+	display: table;
+	width: 100%;
+	padding:0 15px;
+	table-layout: fixed;
+}
+.treatment{
+	background-color: #FAFAFA;
+	height: 300px;
+}
+.ids{
+	text-align: center;
+	color: #C31449;
+}
+.Best{
+	text-align: center;
+}
+.ipsum{
+	text-align: center;
+}
+.red{
+	border-radius: 15px;
+	color: #C31449;
+}
+.red:hover{
+	background-color: #C31449;
+	border-radius: 15px;
+	color: #ffffff;
+}
+.Professional{
+	background-color: #F6F6F6;
+	height: 300px;
+}
+.Emergency{
+	background-color: #EFEFEF;
+	height: 300px;
+}
+.Qualified{
+	background-color: #E9E9E9;
+	height: 300px;
+}
+.service{
+	text-align: center;
+}
+.service:hover{
+	border-bottom: 1px solid #C31449;
+}
+/*Service css end
+----------------------------------------------------------------*/
+
+/*Shedule css Start
+----------------------------------------------------------------*/
+.shedule{
+	background-color: #D77679;
+	border-radius: 20px;
+}
+.shedule01{
+	color: #ffffff;
+}
+.shedule02{
+	color: #ffffff;
+}
+.view{
+	border-radius: 10px;
+	height: 60px;
+}
+.view:hover{
+	background-color: #C31449;
+	color: #ffffff;
+}
+.Appoinment{
+	background-color: #D77679;
+	border-radius: 20px;
+}
+.as{
+	 font-size: 2.5rem
+}
+.Appoinment01{
+	color: #ffffff;
+}
+.am:hover{
+	background-color: #C31449;
+	color: #ffffff;
+}
+/*Shedule css End
+----------------------------------------------------------------*/
+
+/*Category css Start
+----------------------------------------------------------------*/
+.ca{
+	height: 180px;
+}
+.catagory{
+	background-color: #EFEFEF;
+	border: none;
+}
+.cas{
+	color: #D77679;
+}
+.cas:hover{
+	color: #C31449;
+	text-decoration: none;
+}
+/*Category css End
+----------------------------------------------------------------*/
+
+/*Health care css Start
+----------------------------------------------------------------*/
+.cares{
+	background-image: url('Dcare 03/we provide/Background 01 (1).jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 300px;
+	padding-bottom: 200px;
+}
+.doc{
+	height: 500px;
+	position: absolute;
+}
+.lw{
+	color: #ffffff;
+}
+.ls{
+	border-radius: 25px;
+}
+.lw:hover{
+	color: #ffffff;
+	text-decoration: none;
+}
+.ce{
+	font-weight: bold;
+	color: #C31449;
+}
+/*Health care css End
+----------------------------------------------------------------*/
+
+/*Doctors css Start
+----------------------------------------------------------------*/
+.sd{
+	background-color: #f2f5f4;
+}
+.cd{
+	height: 240px;
+}
+.Doctors{
+	background-color: #ffffff;
+	height: 500px;
+	transition-delay: 200ms;
+}
+.bn{
+	border-radius: 50%;
+	border-width: 3px;
+}
+.mn1{
+	position: absolute;
+	margin-top: 200px;
+}
+
+.bn1{
+	border-radius: 25px;
+	border-width: 3px;
+	background-color: #C31449;
+	color: #ffffff;
+}
+.bn1:hover{
+	background-color: #ffffff;
+	color: #C31449;
+}
+.bn:hover{
+	background-color: #ffffff;
+	color: #C31449;
+}
+/*Doctors css End
+----------------------------------------------------------------*/
+
+/*Calculate css Start
+----------------------------------------------------------------*/
+.bs{
+	background-image:url('Dcare 03/Background 01 (5).jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	opacity: 80%
+}
+.tes{
+	color: #ffffff;
+	font-weight: bold;
+}
+/*Calculate css End
+----------------------------------------------------------------*/
+
+/*Plan css Start
+----------------------------------------------------------------*/
+.pl{
+	background-color: #C31449;
+}
+.pl01{
+	background-color: #d62057;
+}
+.an{
+	border-radius: 25px;
+	font-weight: bold;
+}
+.an:hover{
+	color: #C31449;
+}
+.p{
+	color: #000000;
+}
+.sw{
+	color: #C31449;
+}
+/*Plan css End
+----------------------------------------------------------------*/
+
+/*Articles css Start
+----------------------------------------------------------------*/
+.ns{
+	height: 250px;
+}
+.ds{
+	color: #C31449;
+}
+.ds:hover{
+	color: #ffffff;
+	text-decoration: none;
+}
+.dt{
+	position: absolute;
+	margin-top: 220px;
+}
+.ju{
+	font-size: 22px;
+	font-weight: bold;
+}
+.de{
+	border-radius: 20px;
+}
+.our{
+	color: #C31449;
+}
+/*Articles css End
+----------------------------------------------------------------*/
+
+/*Footer css Start
+----------------------------------------------------------------*/
+.foot{
+	background-color: #000000;
+}
+.are{
+	color: #ffffff;
+}
+.our{
+	color: #C31449;
+	border-bottom: 2px solid #ffffff;
+}
+.quis{
+	color: #ffffff;
+	border-bottom: 2px solid #ffffff;
+}
+.cus{
+	color: #ffffff;
+	border-bottom: 2px solid #ffffff;
+}
+.tg{
+	color: #ffffff;
+}
+.tg:hover{
+	color: #ffffff;
+	text-decoration: none;
+}
+.sc{
+	background-color: #ffffff;
+	border-radius:50%;
+}
+.al{
+	color: #000000;
+}
+.al:hover{
+	color: #000000;
+}
+.su{
+	color: #ffffff;
+}
+.su:hover{
+	color: #ffffff;
+	text-decoration: none;
+}
+/*Footer css End
+----------------------------------------------------------------*/
+
+/*Copyright css Start
+----------------------------------------------------------------*/
+.copy{
+	background-color: #2E3037;
+}
+.shihab{
+	color: #ffffff;
+	font-weight: bold;
+}
+/*Copyright css End
+----------------------------------------------------------------*/
+
+
+#backToTop {
+    width:40px;
+    height:40px;
+    opacity:0.8;
+    position:fixed;
+    bottom:5px;
+    right:0;
+    display:none;
+    text-indent:-10000px;
+    outline:none !important;
+    background-image: url('../Dcare 03/Red_Arrow_Up.png');
+    background-repeat: no-repeat;
+}
+
+/*-----------------
+Full Responsive Strat
+----------------------------------------------------------------*/
+@media screen and (min-width: 575px) and (max-width: 1000px){
+.carousel-caption {
+	padding-bottom: 150px;
+	margin-left: 130px;
+}
+.lead{
+	font-size: 15px;
+}
+.Better{
+	font-size: 28px;
+}
+.health{
+	font-size: 24px;
+}
+.Best{
+	font-size: 12px;
+	font-weight: bold;
+}
+.ipsum{
+	font-size: 8px;
+}
+.red{
+	font-size: 12px;
+}
+.ls{
+	font-size: 15px;
+}
+}
+@media screen and (max-width: 574px){
+.mob ul{
+	width: 260px;
+	margin: auto;
+}
+
+.mob ul li{
+	margin: auto;
+}
+
+.mob1 ul{
+	width: 260px;
+	margin: auto;
+	float: none;
+}
+
+.mob1 ul li{
+	margin: auto;
+}
+.carousel-caption {
+	padding-bottom: 150px;
+	margin-left: 90px;
+}
+.lead{
+	font-size: 10px;
+}
+.Better{
+	font-size: 18px;
+}
+.health{
+	font-size: 15px;
+}
+.lern{
+	font-size: 10px;
+}
+.carousel-item img{
+	height: 200px;
+}
+.ls{
+	font-size: 12px;
+}
+}
+@media screen and (max-width: 485px){
+.ml-3, .mx-3 {
+    margin-left: -.5rem !important;
+}
+.ls{
+	font-size: 9px;
+}
+}
+/*-----------------
+Full Responsive End
+----------------------------------------------------------------*/
